@@ -4,7 +4,7 @@ const links = [
   'https://silvesterspath.github.io/github_finder/',
   'https://silvesterspath.github.io/Incrementing-Counter/',
   'https://silvesterspath.github.io/Animated-Navigation/',
-  'citrom',
+  'https://silvesterspath.github.io/Random-Picker/',
   'szilva',
   'repa',
   'retek',
@@ -21,13 +21,14 @@ const images = [
   './img/github_finder.png',
   './img/counter.png',
   './img/animated_nav.png',
+  './img/random_choice.png',
 ];
 
 const texts = [
   'Gihub Finder',
   'Incrementing Counter',
   'Animated Navigation',
-  'w5',
+  'Random Choice',
 ];
 
 window.addEventListener('scroll', checkBoxes);
