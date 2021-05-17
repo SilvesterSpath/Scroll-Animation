@@ -28,7 +28,7 @@ const texts = [
   'Gihub Finder',
   'Incrementing Counter',
   'Animated Navigation',
-  'Random Choice',
+  'Random Choice Picker',
 ];
 
 window.addEventListener('scroll', checkBoxes);
@@ -36,7 +36,7 @@ window.addEventListener('scroll', checkBoxes);
 checkBoxes();
 
 function checkBoxes() {
-  const trigger = (window.innerHeight / 5) * 3;
+  const trigger = (window.innerHeight / 5) * 2;
 
   boxes.forEach((i, index) => {
     i.style.backgroundImage = `url(${images[index]})`;

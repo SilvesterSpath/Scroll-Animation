@@ -27,7 +27,7 @@ h1 {
   align-items: center;
   justify-content: center;
   width: 300px;
-  height: 150px;
+  height: 220px;
   margin: 10px;
   border-radius: 10px;
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
@@ -61,7 +61,11 @@ a:hover {
 }
 
 h3 {
+  background: rgba(67, 66, 70, 0.3); /* Black see-through */
   position: absolute;
   bottom: 2px;
-  color: black;
+  color: rgb(255, 255, 255, 1);
+  padding: 0px 8px 3px;
+  font-weight: bolder;
+  border-radius: 8px;
 }
