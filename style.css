@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin:wght@400;900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 body {
   background-color: #414141;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Aladin', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,21 +22,22 @@ h1 {
 
 .box {
   background-color: steelblue;
+	background-repeat: no-repeat;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 300px;
-  height: 220px;
+  width: 200px;
+  height: 245px;
   margin: 10px;
   border-radius: 10px;
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
-  transform: translateX(300%);
+  transform: translateX(500%);
   transition: transform 0.4s ease;
 }
 
 .box:nth-of-type(even) {
-  transform: translateX(-300%);
+  transform: translateX(-500%);
 }
 
 .box.show {
@@ -60,12 +61,11 @@ a:hover {
   opacity: 0.6;
 }
 
-h3 {
-  background: rgba(67, 66, 70, 0.3); /* Black see-through */
+h3 {  
   position: absolute;
-  bottom: 2px;
-  color: rgb(255, 255, 255, 1);
-  padding: 0px 8px 3px;
+  bottom: -5px;
+  color: rgb(0, 0, 0, 1);
+  padding: 0px 8px ;
   font-weight: bolder;
   border-radius: 8px;
 }

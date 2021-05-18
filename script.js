@@ -5,7 +5,7 @@ const links = [
   'https://silvesterspath.github.io/Incrementing-Counter/',
   'https://silvesterspath.github.io/Animated-Navigation/',
   'https://silvesterspath.github.io/Random-Picker/',
-  'szilva',
+  'https://silvesterspath.github.io/How-many-Drinks/',
   'repa',
   'retek',
   'mogyoro',
@@ -22,6 +22,7 @@ const images = [
   './img/counter.png',
   './img/animated_nav.png',
   './img/random_choice.png',
+	'./img/drink_water.png'
 ];
 
 const texts = [
@@ -29,6 +30,7 @@ const texts = [
   'Incrementing Counter',
   'Animated Navigation',
   'Random Choice Picker',
+	'How many Drinks?'
 ];
 
 window.addEventListener('scroll', checkBoxes);
@@ -40,10 +42,10 @@ function checkBoxes() {
 
   boxes.forEach((i, index) => {
     i.style.backgroundImage = `url(${images[index]})`;
-    i.style.backgroundSize = 'cover';
+    i.style.backgroundSize = 'contain';		
 
     i.setAttribute('href', `${links[index]}`);
-    i.innerHTML = `<h3 style="opacity: 1">${texts[index]}</h3>`;
+    i.innerHTML = `<h3 >${texts[index]}</h3>`;
     const boxTop = i.getBoundingClientRect().top;
 
     if (boxTop < trigger) {
