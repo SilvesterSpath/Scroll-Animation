@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: #414141;
+  background-color: #646971;
   font-family: 'TopSecret', cursive;
   display: flex;
   flex-direction: column;
@@ -25,8 +25,37 @@ body {
   color: white;
 }
 
+.scroll {
+  position: relative;
+  transition: visibility 1.6s ease;
+}
+
 h1 {
-  margin: 10px;
+  margin-top: 70px;
+}
+
+p {
+  position: fixed;
+  bottom: 100px;
+  right: 110px;
+}
+
+#arrow {
+  position: fixed;
+  bottom: 90px;
+  right: 120px;
+}
+
+#arrow-down {
+  position: fixed;
+  bottom: 80px;
+  right: 117px;
+}
+
+#arrow-up {
+  position: fixed;
+  bottom: 95px;
+  right: 116px;
 }
 
 .box {
